@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Is Harley hungry</h1>
+      </header>
+     <div class="overlay" id="overlay">
+        <div class="popup">
+            <h3>Delete record?</h3>
+            <button class="popup-cancel-button" onclick="createDinnerCard.popupCancelButton()">Cancel</button>
+            <button class="popup-delete-button" onclick="createDinnerCard.popupDeleteButton()">Delete</button>
+        </div>
+     </div>
+        
+      </div>
+    <div id="data-card-container">
+         <!--<div class="data-card">
+            <p class="data-in-card">harley ate breakfast</p>
+            <div class="data-card-delete-button">
+                <img src="./trash-icon.png">
+            </div>
+        </div>
+        <div class="data-card"></div>
+        <div class="data-card"></div>
+        <div class="data-card"></div>
+        <div class="data-card"></div>
+        <div class="data-card"></div>
+        <div class="data-card"></div>
+        <div class="data-card"></div>
+        <div class="data-card"></div>
+        <div class="data-card"></div>
+        <div class="data-card"></div>
+        <div class="data-card"></div>
+        <div class="data-card"></div>
+        <div class="data-card"></div> -->
+    </div>
+    <div class="button-container">
+        <input type="button" id="breakfast-button" onclick="createBreakfastCard()" value="Breakfast">
+        <input type="button" id="dinner-button" onclick="createDinnerCard()" value="Dinner">
+    <!--<button id="breakfast-button" onclick="createBreakfastCard()" value="breakfast">Breakfast</button>
+    <button id="dinner-button" onclick="createDinnerCard()" value="dinner">Dinner</button>-->
+    </div>
+    <script src="apptest.js"></script>
+</body>
+</html>
